@@ -1,4 +1,4 @@
-/* @pjs preload="1.jpg,2.jpg,3.jpg" */
+/* @pjs preload="./data/1.jpg,./data/2.jpg,./data/3.jpg" */
 
 PImage[] img = new PImage[10];
 int time, wait = 2000;
