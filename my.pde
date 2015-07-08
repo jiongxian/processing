@@ -4,9 +4,9 @@ PImage[] img = new PImage[10];
 int time, wait = 2000;
 void setup() {
   size(800, 800);
-  img[0] = loadImage("1.jpg");
-  img[1] = loadImage("2.jpg");
-  img[2] = loadImage("3.jpg");
+  img[0] = loadImage("./data/1.jpg");
+  img[1] = loadImage("./data/2.jpg");
+  img[2] = loadImage("./data/3.jpg");
   fill(255);
   time = millis();
 }
@@ -25,7 +25,4 @@ void mouseClicked() {
   Image++;
   if(Image>2)
    Image = 0;
-  
-  
-  
 }
